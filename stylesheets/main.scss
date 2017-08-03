@@ -100,6 +100,7 @@ background-image: url('../images/walkway3.jpg');
 background-position: 25%;
 background-size: cover;
 color: #fff;
+clear: both;
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
@@ -488,7 +489,6 @@ footer a:hover {
 	}
 	.extras article img, .description img {
 		max-width: 100%;
-		clear: both;
 	}
 	.description {
 		padding: 50px 1em;
