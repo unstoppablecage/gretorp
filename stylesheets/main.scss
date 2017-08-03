@@ -490,11 +490,12 @@ footer a:hover {
 	.extras article img, .description img {
 		max-width: 100%;
 	}
+
 	.extras article img {
-		margin-top: 10em;
+		margin-top: 10em; // Problem on ios
 	}
 	.description img {
-		margin-top: 6em;
+		margin-top: 6em; // Problem on ios
 	}
 	.description {
 		padding: 50px 1em;
