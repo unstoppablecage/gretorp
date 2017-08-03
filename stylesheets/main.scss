@@ -455,6 +455,10 @@ footer a:hover {
 }
 
 @media screen and (max-width: 490px) {
+	img {
+		max-width: 100% !important;
+		height: auto !important;
+	}
 	.alert{
 		-webkit-transform: translateY(-96px);
 		    -ms-transform: translateY(-96px);
