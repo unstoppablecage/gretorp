@@ -458,10 +458,6 @@ footer a:hover {
 }
 
 @media screen and (max-width: 490px) {
-	img {
-		max-width: 100% !important;
-		height: auto !important;
-	}
 	.alert{
 		-webkit-transform: translateY(-96px);
 		    -ms-transform: translateY(-96px);
@@ -494,7 +490,7 @@ footer a:hover {
 	}
 	.extras article img, .description img {
 		max-width: 100%;
-		margin-top: 2em;
+		margin-top: 4em;
 	}
 	.description {
 		padding: 50px 1em;
