@@ -137,21 +137,16 @@
 		const alert = document.querySelector('.alert');
 		const form = document.querySelector('.submission_form');
 
-		function checkform(e) {
+		submit.addEventListener('click', function(e) {
 			e.preventDefault();
 			for (let i = 0; i < fields.length; i += 1) {
-				console.log(fields[i].value);
 				if (fields[i].value === '' || fields[i].value === null) {
-					console.log("Submission Failed");
 					return;
 				}
 			}
 			alert.classList.add('submitted');
 			form.reset();
-		}
-		submit.addEventListener('submit', checkform);
-
-
+		});
 	</script>
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
