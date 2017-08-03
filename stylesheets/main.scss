@@ -286,8 +286,6 @@ text-align: center;
 // Extras Styles
 .extras {
 	background: $color_medium;
-	display: flex;
-	flex-direction: column;
 	color: #fff;
 	padding: 2em 0;
 }
@@ -462,9 +460,6 @@ footer a:hover {
 		-webkit-transform: translateY(-96px);
 		    -ms-transform: translateY(-96px);
 		        transform: translateY(-96px);
-	}
-	.signup {
-		margin-bottom: 2em;
 	}
 	.submitted {
 	-webkit-animation: phoneDown 2.5s 1.0s 1 ease forwards;
