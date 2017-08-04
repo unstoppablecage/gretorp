@@ -483,9 +483,7 @@ footer a:hover {
 	.extras article {
 		margin: 0 1em;
 	}
-	.extras_restrictions img {
-		display: none;
-	}
+
 	.extras_text h3 {
 		margin-top: 20px;
 	}
@@ -500,10 +498,10 @@ footer a:hover {
 	}
 
 	.extras article img {
-		//margin-top: 10em; // Problem on ios
+		margin-top: 10em; // Problem on ios
 	}
 	.description img {
-		//margin-top: 6em; // Problem on ios
+		margin-top: 6em; // Problem on ios
 	}
 	.description {
 		padding: 50px 1em;
