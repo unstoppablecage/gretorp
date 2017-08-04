@@ -285,6 +285,11 @@ text-align: center;
 	background: #BF5E3F;
 }
 // Extras Styles
+.extras_container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
 .extras {
 	background: $color_medium;
 	color: #fff;
@@ -492,10 +497,10 @@ footer a:hover {
 	}
 
 	.extras article img {
-		margin-top: 10em; // Problem on ios
+		//margin-top: 10em; // Problem on ios
 	}
 	.description img {
-		margin-top: 6em; // Problem on ios
+		//margin-top: 6em; // Problem on ios
 	}
 	.description {
 		padding: 50px 1em;
