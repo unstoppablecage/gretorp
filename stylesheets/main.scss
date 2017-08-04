@@ -525,10 +525,10 @@ footer a:hover {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 		.extras article img {
-		margin-top: 10em; // Problem on ios
+		margin-top: 12em; // Problem on ios
 		}
 	.description img {
-		margin-top: 6em; // Problem on ios
+		margin-top: 10em; // Problem on ios
 		}
 		.hero_text {
 			border: none;
