@@ -21,7 +21,7 @@
 					<li class="nav_links"><a href="#About">About Us</a></li>
 					<li class="nav_links"><a href="#Prizes">Prizes</a></li>
 					<li class="nav_links"><a href="#Restrictions">Eligibility & Restrictions</a></li>
-					<li class="nav_links"><a href="#Form">Nominate an Employee</a></li>
+					<li class="nav_links"><a href="#Form">Finalists</a></li>
 				</ul>
 			</nav>
 			<div class="hero">
@@ -36,8 +36,8 @@
 		<div class="description">
 			<img src="images/award.jpg" alt="Employee holding trophy" height="250" width="343">
 			<div class="description_text">
-				<h2>Are You or Someone you Know a Great Employee? Want to Win Some Serious Prizes for your Effort?</h2>
-				<p>At Blue Mountain we recognize a hardworking, dedicated employee can make all the difference, so we're looking to give back. Just fill out the form below for a chance to be selected into our group of finalists! Four lucky employees will get a chance to compete in the final on August 15 for a chance to win a <a href="http://www.fairmont.com/southampton-bermuda/special-offers/hotel-offers/discovery/discoverbermudapackage/">Dream Getaway</a> and a <a href="https://www.bose.ca/en_ca/products/speakers/home_theater/lifestyle-650-home-theater-system.html#v=ls_650_black">Bose Lifestyle 650 Home Entertainment System!</a></p>
+				<h2>Finalists Have Been Chosen, A Big Thanks To Everyone Who Voted and to All the Nominees </h2>
+				<p>A Big Congratulations to All Finalists. Information Regarding the Finals Will Be Send To Your Employer Over the Coming Days. The Finals Will Be August 17 in the Form of a Timed Scavenger Hunt Through the Village. Judges will be On-hand to Observe and the Winner will be Announced Publicly. Best of Luck to All of Our Finalists!</p>
 			</div>
 		</div> <!-- description div -->
 
@@ -53,24 +53,44 @@
 			</div>
 		</div> <!-- sponsors div -->
 
-		<div class="signup">
+		<div class="signup" id="Form">
 			<div class="signup_text">
-				<h2 id="Form">Submit Someone for a Chance to Be Blue Mountain's Employee of the Year!</h2>
-				<p>Does someone you know match the criteria? A hardworking, kind, dedicated individual who doesn't get the credit they deserve? Fill out the form below to give them a chance at winning this years awesome prizes!</p>
+				<h2 id="Form">Congratulations to this Year's Finalists</h2>
+				<p>Full details for the Upcoming Competition will be Released Very Shortly</p>
 			</div>
-			<form class="submission_form">
-				<input type="text" name="First Name" placeholder="First Name">
-				<input type="text" name="Last Name" placeholder="Last Name">
-				<input type="text" name="Employment" placeholder="Company/Business">
-				<input type="tel" name="Phone" placeholder="Business Phone">
-				<input type="email" name="Email" placeholder="Business Email">
-				<textarea name="Reason" placeholder="Please Provide a Short Description of the Individual and What Qualifies them to Win this Award..."></textarea>
-				<button type="submit" id="submit">Submit</button>
-			</form>
+			<div class=" winners">
+				<div class="finalist">
+					<h3>Rob Saunders</h3>
+					<h4>Tholos Restaurant</h4>
+					<p>Rob has been nominated for his excellent work ethic, and ability to   inspire others on a daily basis.</p>
+				</div>
+				<div class="finalist">
+					<h3>Candice Marquette</h3>
+					<h4>Embarc Blue Moutain</h4>
+					<p>Candice has been said “to put a smile on everyone’s face” her ability to help those in need was also noted. </p>
+				</div>
+				<div class="finalist">
+					<h3>Brandon Bull</h3>
+					<h4>Wild Wings</h4>
+					<p> Described as “one of a kind”, his leadership ability under pressure and team spirit are the main reasons for his nomination. </p>
+				</div>
+				<div class="finalist">
+					<h3>Georgina Kowalczyk</h3>
+					<h4>Firehall Pizza Co</h4>
+					<p>Although we received many nominations from Firehall, Georgina stuck out from the pack. Described as a free spirit, with the lift up those around her.</p>
+				</div>
+				<div class="finalist">
+					<h3>Armand Attar</h3>
+					<h4>ENVY Eyewear</h4>
+					<p>An uncanny attention to detail, and organization plus a great personality towards customers has earned Armand our nomination. </p>
+				</div>
+				<div class="finalist">
+					<h3>Justin Jarvis</h3>
+					<h4>Kaytoo</h4>
+					<p>Justin has been described by fellow employees as the “glue” that holds everyone together. He received several votes all stating his steadfast dedication as a key reason. </p>
+				</div>
+			</div>
 		</div> <!-- signup div -->
-		<div class="alert">
-			<p>Thank You Your Application Has Been Successfully Submitted!</p>
-		</div>
 		<div class="extras_container">
 			<div class="extras">
 				<article class="extras_restrictions">
@@ -85,7 +105,7 @@
 				<article class="extras_prizes">
 					<div class="extras_text " id="Prizes">
 						<h3>Prizes</h3>
-						<p>Our committee of judges will carefully evaluate all applications and select four finalists. These finalists will then be given a final competition to determine our grand prize winner. Our lucky winner will receive one weeks accomodations for themselves and a guest at the luxorious Fairmont Southampton, in the beautiful Bahamas, as well as a state of the art Bose Home Entertainment System. Best of luck to all entrants!
+						<p>Our committee of judges will carefully evaluate all applications and select four finalists. These finalists will then be given a final competition to determine our grand prize winner. Our lucky winner will receive one weeks accomodations for themselves and a guest at the luxorious <a href="http://www.fairmont.com/southampton-bermuda/special-offers/hotel-offers/discovery/discoverbermudapackage/">Fairmont Southampton</a>, in the beautiful Bahamas, as well as a state of the art <a href="https://www.bose.ca/en_ca/products/speakers/home_theater/lifestyle-650-home-theater-system.html#v=ls_650_black">Bose Home Entertainment System</a>. Best of luck to all entrants!
 						</p>
 					</div>
 					<img src="images/vacation.jpg" alt="Tropical Island" height="193" width="343">
@@ -128,22 +148,5 @@
 			</footer>
 		</div>
 	</div> <!-- container div -->
-	<script>
-		const submit = document.querySelector('#submit');
-		const fields = [...document.querySelectorAll('input')];
-		const alert = document.querySelector('.alert');
-		const form = document.querySelector('.submission_form');
-
-		submit.addEventListener('click', function(e) {
-			e.preventDefault();
-			for (let i = 0; i < fields.length; i += 1) {
-				if (fields[i].value === '' || fields[i].value === null) {
-					return;
-				}
-			}
-			alert.classList.add('submitted');
-			form.reset();
-		});
-	</script>
 </body>
 </html>
