@@ -544,3 +544,12 @@ footer a:hover {
 			border: none;
 		}
 }
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+	.winners {
+		margin-top: 20em;
+	}
+ }
