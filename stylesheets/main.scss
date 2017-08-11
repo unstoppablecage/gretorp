@@ -513,6 +513,9 @@ footer a:hover {
 	.description img {
 		margin-top: 6em; // Problem on ios
 	}
+	.winners {
+		margin-top: 20em;
+	}
 	.description {
 		padding: 50px 1em;
 	}
@@ -553,3 +556,6 @@ and (orientation : portrait) {
 		margin-top: 20em;
 	}
  }
+ @media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) { /* STYLES GO HERE */}
