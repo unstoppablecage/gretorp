@@ -543,12 +543,36 @@ footer a:hover {
 	.description img {
 		margin-top: 10em; // Problem on ios
 		}
+	.hero_text {
+		border: none;
+	}
+	.winners {
+		margin-top: 20em;
+	}
+}
+
+@media only screen // iphone 6
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+		.extras article img {
+		margin-top: 12em; // Problem on ios
+		}
+		.description img {
+		margin-top: 10em; // Problem on ios
+		}
 		.hero_text {
-			border: none;
+		border: none;
+		}
+		.winners {
+		margin-top: 20em;
 		}
 }
 
-@media only screen
+
+
+@media only screen //iphone 5
 and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) {
