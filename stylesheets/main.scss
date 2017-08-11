@@ -532,7 +532,7 @@ footer a:hover {
 	}
 }
 
-@media only screen
+@media only screen // iphone 5
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -547,7 +547,7 @@ footer a:hover {
 		border: none;
 	}
 	.winners {
-		margin-top: 20em;
+		margin-top: 28em;
 	}
 }
 
@@ -566,20 +566,7 @@ footer a:hover {
 		border: none;
 		}
 		.winners {
-		margin-top: 20em;
+		margin-top: 28em;
 		}
 }
 
-
-
-@media only screen //iphone 5
-and (min-device-width : 375px)
-and (max-device-width : 667px)
-and (orientation : portrait) {
-	.winners {
-		margin-top: 20em;
-	}
- }
- @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px) { /* STYLES GO HERE */}
